@@ -20,14 +20,16 @@
         Instructions <i class="fas fa-exclamation-circle"></i>
       </h1>
       <p class="instructions-text">
-        Please read the instructions before starting! 
+        Please understand the instructions before starting the quiz!
       </p>
       <ul class="instructions-list">
         <li>The quiz contains 10 Questions</li>
         <li>You will have 15 seconds to attempt each question</li>
-        <li>For every correct answer you will get 5 points!</li>
-        <li>For every wrong/unanswered question you will get 0</li>
-        <li>After you finish the quiz, Your previous score will be shown</li>
+        <li>For every correct attempt you will get 5 score</li>
+        <li>For every wrong/unanswer attempt you will get 0</li>
+        <li>
+          After you finish the quiz, The summary of results will be displayed
+        </li>
       </ul>
       <button id="start-quiz" class="btn-start">Start!</button>
     </section>
@@ -36,6 +38,7 @@
       <h1 class="quiz-title">The Office Quiz</h1>
       <div class="quiz-header">
         <div id="number"></div>
+
         <div id="time">00:00</div>
       </div>
 
@@ -62,6 +65,7 @@
       </div>
       <div class="quiz-footer">
         <div class="score">Score: <span id="score"></span></div>
+        <div id="previous"></div>
         <input class="btn-submit" type="submit" value="Submit" />
       </div>
     </form>
