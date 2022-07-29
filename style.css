@@ -98,6 +98,7 @@ body {
   color: #212121;
   border-radius: 5px;
   padding: 1.5rem;
+  display: none;
 }
 
 .result-container {
